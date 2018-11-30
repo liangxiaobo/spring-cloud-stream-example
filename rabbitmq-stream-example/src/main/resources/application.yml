@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: rabbitmq-stream-example
+  rabbitmq:
+    host: 172.16.10.172
+    port: 5672
+    username: guest
+    password: guest
+  cloud:
+    stream:
+      bindings:
+        input:
+          destination: mqtestDefault # 指定了消息获取的目的地，对应于MQ就是 exchange，这里的exchange就是 mqTestDefault
+          group: user-channel
+        output:
+          destination: mqtestDefault
+          contentType: text/plain
+
+server:
+  port: 8080
