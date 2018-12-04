@@ -198,6 +198,5 @@ public class TestController {
 待续。。。
 
 
-> 引用
-[源码 rabbitmq-stream-example](https://github.com/liangxiaobo/spring-cloud-stream-example/tree/master/rabbitmq-stream-example)<br/>
+> [源码 rabbitmq-stream-example](https://github.com/liangxiaobo/spring-cloud-stream-example/tree/master/rabbitmq-stream-example)<br/>
 [官方文档 Elmhurst.RELEASE](https://docs.spring.io/spring-cloud-stream/docs/Elmhurst.RELEASE/reference/htmlsingle/#_spring_cloud_stream_core)
